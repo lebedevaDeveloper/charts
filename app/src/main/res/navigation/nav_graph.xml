@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/lineChartFragment">
+
+    <fragment
+        android:id="@+id/lineChartFragment"
+        android:name="com.example.charts.ui.main.LineChartFragment"
+        android:label="Line Chart"
+        tools:layout="@layout/fragment_line_chart" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/candleStickChartFragment"
+        android:name="com.example.charts.ui.main.CandleStickFragment"
+        android:label="Candlestick Chart"
+        tools:layout="@layout/fragment_candlestick_chart" >
+    </fragment>
+</navigation>

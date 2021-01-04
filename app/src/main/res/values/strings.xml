@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Charts</string>
+    <string name="choose_data_options">Choose Data Options</string>
+    <string name="weekly_data">Weekly data</string>
+    <string name="monthly_data">Monthly data</string>
+    <string name="chart_app_content">Chart App Content</string>
+</resources>
